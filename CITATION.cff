@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "fibonacci-vortex-core: φ-modulated vortex core with Fibonacci hierarchy"
+abstract: >
+  A vortex model with distance-dependent circulation:
+  Γ(r) = Γ₀ · Σ F_k · φ^(−(k+1) r/r_c) / Σ F_k.
+  Properties: Γ(0) = Γ₀ (exact), Γ(∞) = 0 (exact),
+  Γ(φr)/Γ(r) ≈ 1/φ for K ≥ 5 (numerical). Includes pytest tests
+  for all properties, comparison with Rankine and Lamb-Oseen
+  models, and matplotlib visualisation. Research prototype (TRL 3).
+authors:
+  - family-names: "Зиявутдинов"
+    given-names: "Магомед Камалович"
+    alias: "Zimaka"
+    email: "zimakam@gmail.com"
+    affiliation: "Independent Researcher"
+version: "1.0.0"
+date-released: "2026-09-20"
+license: MIT
+repository-code: "https://github.com/Zimakam/fibonacci-vortex-core"
+url: "https://github.com/Zimakam/fibonacci-vortex-core"
+type: software
+keywords:
+  - "vortex"
+  - "fibonacci"
+  - "golden ratio"
+  - "fluid dynamics"
+  - "vortex core"
+  - "self-similarity"
+  - "lamb-oseen"
+  - "rankine"
+  - "scientific computing"
+  - "python"
+  - "numpy"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+    description: "Zenodo DOI (to be assigned on first release)"
+preferred-citation:
+  type: software
+  title: "fibonacci-vortex-core: φ-modulated vortex core with Fibonacci hierarchy"
+  authors:
+    - family-names: "Зиявутдинов"
+      given-names: "Магомед Камалович"
+      alias: "Zimaka"
+      email: "zimakam@gmail.com"
+      affiliation: "Independent Researcher"
+  year: 2026
+  version: "1.0.0"
+  license: MIT
+  doi: "10.5281/zenodo.XXXXXXX"
+  repository-code: "https://github.com/Zimakam/fibonacci-vortex-core"

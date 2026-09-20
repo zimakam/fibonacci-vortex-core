@@ -1,0 +1,42 @@
+{
+  "title": "fibonacci-vortex-core: φ-modulated vortex core with Fibonacci hierarchy",
+  "description": "<p>A vortex model with distance-dependent circulation:</p><p><code>Γ(r) = Γ₀ · Σ F_k · φ^(−(k+1) r/r_c) / Σ F_k</code></p><p><strong>Properties:</strong></p><ul><li>Γ(0) = Γ₀ (exact, for any K)</li><li>Γ(∞) = 0 (exact, exponentially)</li><li>Γ(φr)/Γ(r) ≈ 1/φ for K ≥ 5 (numerical, verified)</li><li>Monotonicity: Γ(r) strictly decreasing on [0, ∞)</li></ul><p>In contrast to classical vortex models (Rankine, Lamb-Oseen, Gaussian), the circulation here is a Fibonacci-weighted φ-exponential sum, giving a self-similar decay of circulation with distance.</p><p>The repository includes:</p><ul><li>reference implementation in Python (NumPy only)</li><li>pytest tests for all properties (Γ(0)=Γ₀, decay, φ-scaling, velocity, comparison with classical models, Zeckendorf address, axis orientation)</li><li>comparison helpers with Rankine and Lamb-Oseen</li><li>matplotlib example for visualisation</li></ul><p><strong>Status:</strong> research prototype (TRL 3). Not a validated physical theory. Numerical properties only; formula is a mathematical construct, not derived from physical equations.</p>",
+  "upload_type": "software",
+  "publication_date": "2026-09-20",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Зиявутдинов, Магомед Камалович",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "vortex",
+    "fibonacci",
+    "golden ratio",
+    "fluid dynamics",
+    "vortex core",
+    "self-similarity",
+    "lamb-oseen",
+    "rankine",
+    "scientific computing",
+    "python",
+    "numpy"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Zimakam/quantum-master-v2",
+      "relation": "isPartOf",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Zimakam/dm-antigravity",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Author's full name in Latin transliteration: Ziyavutdinov Magomed Kamalovich. Alias: Zimaka."
+}
